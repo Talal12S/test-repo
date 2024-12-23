@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    width: 100;
+    background-color:#1d1d1d;
+    color: white;
+}
+.offer{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+.offer ul,
+.offer ul li{
+    list-style-type: none;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+
+}
+.offer p{
+    width: 25%;
+    font-size: 14px;
+}
+.offer ul{
+    gap: 20px;
+    width: 23%;
+}
+.offer ui li a{
+    color: white;
+    text-decoration: none;
+
+}
+.offer ui li a:hover{
+    text-decoration: underline;
+}
+.UALogo{
+    color: white;
+}
